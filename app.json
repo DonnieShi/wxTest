@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/hTwo/hTwo",
+    "pages/hThree/hThree"
+  ],
+  "tabBar":{
+    "color":"#555555",
+    "selectedColor":"#fff",
+    "backgroundColor":"#000",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"页面1",
+        "iconPath":"img/12.png",
+        "selectedIconPath":"img/11.png"
+      },
+      {
+        "pagePath": "pages/hTwo/hTwo",
+        "text": "页面2",
+        "iconPath": "img/22.png",
+        "selectedIconPath": "img/21.png"       
+      },
+      {
+        "pagePath": "pages/hThree/hThree",
+        "text": "页面3",
+        "iconPath": "img/32.png",
+        "selectedIconPath": "img/31.png"
+      }
+    ]
+
+
+
+
+  }
+}
