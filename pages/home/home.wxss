@@ -1,1 +1,14 @@
 /* pages/home/home.wxss */
+
+.main{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80%;
+	display: block;
+	background-color: #452536;
+},
+.swiper{
+	width: 100%;
+	height: 50%;
+}
