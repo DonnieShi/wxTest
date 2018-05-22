@@ -1,10 +1,13 @@
 <!--pages/home/home.wxml-->
 <view  class="main"  >
-	<swiper class="swiper" autoplay= true interval={{5000}} duration=500 >
-	  <block wx:for="{{imgUrls}}">
-	    <swiper-item>
-	      <image src="{{item}}" class="slide-image"/>
+	<swiper class="swiper" autoplay= "{{true}}" indicator-dots = "{{true}}" interval="{{5000}}" circular="{{true}}" duration="{{500}}" >
+	  <block wx:for="{{imgUrls}}"  >
+	    <swiper-item >
+	      <image src="{{item}}" id = "{{index}}" bindtap="swiperClick" class="slide-image" bindload="imgLoad"  mode="widthFix" />
 	    </swiper-item>
 	  </block>
 	</swiper>
+</view>
+<view class = "detail" hidden ="{{boolHidden}}">
+	<image src="{{detailSrc}}" bindtap="detailClick" class="image-detail"   mode="widthFix" />
 </view>

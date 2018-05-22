@@ -6,9 +6,30 @@
 	width: 100%;
 	height: 80%;
 	display: block;
-	background-color: #452536;
-},
+	/*background-color: #452536;*/
+}
 .swiper{
+	display: block;
 	width: 100%;
 	height: 50%;
+}
+.slide-image{
+	display: block;
+	margin: 0 auto;
+	width: 100vw;
+}
+
+.detail{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.image-detail{
+	display: block;
+	margin: 0 auto;
+	width: 100vw;
+	height: 100vw;
 }
